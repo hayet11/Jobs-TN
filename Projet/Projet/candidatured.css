@@ -1,0 +1,21 @@
+.table{
+   margin: 8% !important;
+   width: 80% !important;
+}
+.table-header{
+    background-image: linear-gradient(to right top, #7400b8, #7210ba, #701bbd, #6e23bf, #6c29c1, #6a31c3, #6739c5, #653fc7, #6248c9, #6051cb, #5f59cd, #5e60ce) !important;
+    color: white;
+}
+td i{
+    font-size: 20px;
+}
+.accepte{
+    color: #14A44D;
+   
+}
+.attente{
+    color: #E4A11B;
+}
+.refuse{
+    color: #DC4C64;
+}

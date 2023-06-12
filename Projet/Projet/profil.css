@@ -1,0 +1,85 @@
+
+.main-content{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 800px;
+    
+   }
+   .side-bar{
+       
+       /*width: 30rem;
+       height: 100vh;*/
+       background-color:  chocolate;
+       background-color:#4EA8DE;
+       background-color: #5E60CE;
+       /*background: #673AB7;  
+       background: -webkit-linear-gradient(to left, #512DA8, #673AB7); 
+       background: linear-gradient(to left, #512DA8, #673AB7);*/
+       background-color: #2C3E50;
+       background-color: #b498e1;
+       
+
+    }
+    
+    .side-bar .profile{
+       padding:8% ;
+       text-align: center;
+    }
+    
+    .side-bar .profile .image{
+       height: 10rem;
+       width: 10rem;
+       border-radius: 50%;
+       object-fit: contain;
+       margin-bottom: 1rem;
+       background-color: aquamarine;
+    }
+    
+    .side-bar .profile .name{
+       font-size: 22px;
+       color: #bbbbbb;
+       color: #fff;
+       
+       overflow: hidden;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+    }
+    
+    .side-bar .profile .role{
+       font-size: 23px;
+       color: #bbbbbb;
+       color: #fff;
+    }
+    
+    .side-bar .navbar a{
+       display: block;
+       padding: 2rem;
+       font-size: 23px;
+    }
+    
+    .side-bar .navbar a i{
+       margin-right: 1.5rem;
+       color: #fff;
+       color: #fff;
+       transition: .2s linear;
+    }
+    
+    .side-bar .navbar a span{
+       color: #fff;
+       color: #bbbbbb;
+       color: #fff;
+       
+    }
+    
+    .side-bar .navbar a:hover{
+
+       background-color: #6930C3;
+    }
+    
+    .side-bar .navbar a:hover i{
+       margin-right: 2.5rem;
+    }
+    
+    .side-bar.active{
+       left: -30rem;
+    }
